@@ -1,6 +1,5 @@
 import { useEffect } from 'react'
 import '../styles/globals.css'
-import 'bootstrap/dist/css/bootstrap.css';
 import Head from 'next/head';
 import Script from 'next/script';
 
