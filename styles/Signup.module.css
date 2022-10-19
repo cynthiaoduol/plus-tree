@@ -1,0 +1,9 @@
+.signup{
+   
+}
+.input{
+ display:flex;
+ flex-direction:column;
+ width:50%;
+ justify-content:space-between;
+}
