@@ -1,21 +1,21 @@
-import styles from "../styles/Signup.module.css"
 
-const Signup=()=>{
-    return(
-        <div>
-          <div className={styles.signup}>
-            <div className={styles.input}>
-            <input type="text" placeholder="First Name" required/>
-            <input type="text" placeholder="Last Name" required/>
-            <input type="text" placeholder="UserName" required/>
-            <input type="text" placeholder="Email Address" required/>
-            <input type="text" placeholder="Password" required/>
-            <input type="text" placeholder="Confirm Password" reqired/>
+import { Amplify } from 'aws-amplify';
 
-            </div>
-          </div>
-        </div>
-    )
-   
+
+import { withAuthenticator } from '@aws-amplify/ui-react';
+import '@aws-amplify/ui-react/styles.css';
+
+import awsExports from '../src/aws-exports';
+Amplify.configure(awsExports);
+
+function Signup({ signOut, user }) {
+  return (
+    <>
+       <withAuthenticator/>
+      <h1>Hello {user.username}</h1>
+      <button onClick={signOut}>Sign out</button>
+    </>
+  );
 }
-export default Signup 
+
+export default withAuthenticator(Signup);
