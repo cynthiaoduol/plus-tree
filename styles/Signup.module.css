@@ -1,0 +1,12 @@
+.signup{
+   margin:0 auto;
+   width:80%;
+}
+.input{
+ display:flex;
+ flex-direction:column;
+ width:50%;
+ gap:1em;
+ outline:none;
+ border-radius:5px;
+}

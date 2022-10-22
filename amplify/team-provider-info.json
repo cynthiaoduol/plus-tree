@@ -1,0 +1,29 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-plustree-dev-115615-authRole",
+      "UnauthRoleArn": "arn:aws:iam::364365632034:role/amplify-plustree-dev-115615-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::364365632034:role/amplify-plustree-dev-115615-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-plustree-dev-115615-deployment",
+      "UnauthRoleName": "amplify-plustree-dev-115615-unauthRole",
+      "StackName": "amplify-plustree-dev-115615",
+      "StackId": "arn:aws:cloudformation:us-east-1:364365632034:stack/amplify-plustree-dev-115615/9749d2b0-4fc6-11ed-b518-121a174b4a23",
+      "AmplifyAppId": "d2c7jy1smwozyn"
+    },
+    "categories": {
+      "api": {
+        "plustree": {}
+      },
+      "auth": {
+        "plustree615131d7": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2c7jy1smwozyn",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
